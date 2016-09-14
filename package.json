@@ -1,23 +1,23 @@
 {
-  "name": "cellular-automata",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ta-run/cellular-automata.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ta-run/cellular-automata/issues"
-  },
-  "homepage": "https://github.com/ta-run/cellular-automata#readme",
-  "dependencies": {
-    "hapi": "^15.0.3",
-    "inert": "^4.0.2"
-  }
+    "name": "cellular-automata",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ta-run/cellular-automata.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ta-run/cellular-automata/issues"
+    },
+    "homepage": "https://github.com/ta-run/cellular-automata#readme",
+    "dependencies": {
+        "hapi": "^15.0.3",
+        "inert": "^4.0.2"
+    }
 }
