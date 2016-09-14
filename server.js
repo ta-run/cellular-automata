@@ -4,7 +4,7 @@ const inert = require('inert')
 const server = new hapi.Server()
 
 server.connection({
-    port: process.env.port || '8888',
+    port: process.env.PORT || '8888',
     host: '0.0.0.0'
 })
 
