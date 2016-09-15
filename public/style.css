@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 1000px;
+}
+body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .row div {
     background-color: #99CCFF;
     height: 10px;

@@ -22,7 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const createRow = (() => {
-        for(let i = 0; i < 145; i++) {
+        let fullScreen = document.documentElement.clientWidth
+        let cellWidth = 10
+        for(let i = 0; i < parseInt(fullScreen/cellWidth); i++) {
             let div = document.createElement('div')
             row.appendChild(div)
             div.classList.add(getRandomNumber() ? 'active' : 'inactive')
